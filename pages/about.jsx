@@ -72,7 +72,7 @@ export default function about() {
               </div>
               <div className='mb-5 xl:mb-10'>
               <span className='text-2xl  font-semibold'>  24/7 Support:</span>
-                <p className='text-justify lg:text-[10px] xl:text-[16px] text-[10px]'>Our Customer service team is always ready to help you even after the clock strikes midnight if you require support that will be provided without quarrel. Our exclusive commitment is to assure the confidence and security of our customers and to provide them with immediate assistance whenever it's needed.</p>
+                <p className='text-justify lg:text-[10px] xl:text-[16px] text-[10px]'>Our Customer service team is always ready to help you even after the clock strikes midnight if you require support that will be provided without quarrel. Our exclusive commitment is to assure the confidence and security of our customers and to provide them with immediate assistance whenever its needed.</p>
               </div>
               <img className='mb-5 xl:mb-10 object-cover w-full h-48 xl:h-72 rounded-ss-[200px] rounded-ee-[200px] overflow-hidden' src="/About/a5.jpg" alt="" />
               <img className='mb-5 xl:mb-10 object-cover w-full h-48 xl:h-72 rounded-ss-[200px] rounded-ee-[200px] overflow-hidden' src="/About/a6.jpg" alt="" />

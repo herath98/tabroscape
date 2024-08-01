@@ -400,10 +400,10 @@ const HomePage = () => {
 
 
         <section className=' lg:px-40 px-5'>
-          <h1 className="text-3xl text-black font-bold mb-8 mt-5">Let's take a tour for more information about our locations</h1>
+          <h1 className="text-3xl text-black font-bold mb-8 mt-5">Lets take a tour for more information about our locations</h1>
           <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-6 mb-5">
             {destinations.map(destination => (
-              <div style={{ borderRadius: '16px', boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)', border: '1px solid rgba(255, 255, 255, 0.3)', }} className="border  hover:scale-105  transition duration-300 overflow-hidden  object-cover  rounded-lg  text-black ">
+              <div key={destination.id} style={{ borderRadius: '16px', boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)', border: '1px solid rgba(255, 255, 255, 0.3)', }} className="border  hover:scale-105  transition duration-300 overflow-hidden  object-cover  rounded-lg  text-black ">
                 <img src={destination.image} alt={destination.name} className="w-full h-48   " />
                 <div className="p-4 bg-white ">
                   <h2 className="text-xl font-semibold mb-2 uppercase  ">{destination.name}</h2>

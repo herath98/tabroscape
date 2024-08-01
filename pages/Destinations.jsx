@@ -13,7 +13,7 @@ const Destinations = () => {
       <h1 className="text-3xl font-bold text-black mb-8">All Destinations</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-5">
         {destinations.map(destination => (
-          <div style={{borderRadius:'16px', boxShadow:'0 4px 30px rgba(0, 0, 0, 0.1)',border:'1px solid rgba(255, 255, 255, 0.3)',}} className="border   hover:scale-105  transition duration-300 overflow-hidden  object-cover  rounded-lg  text-black ">
+          <div key={destination.id} style={{borderRadius:'16px', boxShadow:'0 4px 30px rgba(0, 0, 0, 0.1)',border:'1px solid rgba(255, 255, 255, 0.3)',}} className="border   hover:scale-105  transition duration-300 overflow-hidden  object-cover  rounded-lg  text-black ">
           <Image width={300} height={192} src={destination.image} alt={destination.name} className="w-full h-48   " />
           <div className="p-4 bg-white ">
             <h2 className="text-xl font-semibold mb-2 uppercase  ">{destination.name}</h2>
